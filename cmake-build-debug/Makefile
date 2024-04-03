@@ -141,6 +141,30 @@ copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
 
+src/Fecha.obj: src/Fecha.cpp.obj
+.PHONY : src/Fecha.obj
+
+# target to build an object file
+src/Fecha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fecha.cpp.obj
+.PHONY : src/Fecha.cpp.obj
+
+src/Fecha.i: src/Fecha.cpp.i
+.PHONY : src/Fecha.i
+
+# target to preprocess a source file
+src/Fecha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fecha.cpp.i
+.PHONY : src/Fecha.cpp.i
+
+src/Fecha.s: src/Fecha.cpp.s
+.PHONY : src/Fecha.s
+
+# target to generate assembly for a file
+src/Fecha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fecha.cpp.s
+.PHONY : src/Fecha.cpp.s
+
 src/Main.obj: src/Main.cpp.obj
 .PHONY : src/Main.obj
 
@@ -165,6 +189,30 @@ src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/Producto.obj: src/Producto.cpp.obj
+.PHONY : src/Producto.obj
+
+# target to build an object file
+src/Producto.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Producto.cpp.obj
+.PHONY : src/Producto.cpp.obj
+
+src/Producto.i: src/Producto.cpp.i
+.PHONY : src/Producto.i
+
+# target to preprocess a source file
+src/Producto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Producto.cpp.i
+.PHONY : src/Producto.cpp.i
+
+src/Producto.s: src/Producto.cpp.s
+.PHONY : src/Producto.s
+
+# target to generate assembly for a file
+src/Producto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Producto.cpp.s
+.PHONY : src/Producto.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -175,9 +223,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
+	@echo ... src/Fecha.obj
+	@echo ... src/Fecha.i
+	@echo ... src/Fecha.s
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s
+	@echo ... src/Producto.obj
+	@echo ... src/Producto.i
+	@echo ... src/Producto.s
 .PHONY : help
 
 
