@@ -56,6 +56,13 @@ build CMakeFiles/main.dir/src/Main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\src
 
+build CMakeFiles/main.dir/src/Producto.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2/src/Producto.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\src\Producto.cpp.obj.d
+  FLAGS = -g -O0 -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2/include -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++" -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32" -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward" -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include" -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/include" -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed" -isystem "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/x86_64-w64-mingw32/include"
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -64,7 +71,7 @@ build CMakeFiles/main.dir/src/Main.cpp.obj: CXX_COMPILER__main_unscanned_Debug C
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/Main.cpp.obj
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/Main.cpp.obj CMakeFiles/main.dir/src/Producto.cpp.obj
   FLAGS = -g -O0
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir

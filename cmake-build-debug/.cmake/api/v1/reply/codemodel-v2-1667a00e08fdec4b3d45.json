@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "copy-compile-commands::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-copy-compile-commands-Debug-d13b6ce4da60a4948229.json",
+					"jsonFile" : "target-copy-compile-commands-Debug-560e1eaecdc5b594e4bc.json",
 					"name" : "copy-compile-commands",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-36bf521126ae3f0eeb4d.json",
+					"jsonFile" : "target-main-Debug-35c1093b3357bc3bd121.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
-		"source" : "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2"
+		"build" : "C:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2/cmake-build-debug",
+		"source" : "C:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2"
 	},
 	"version" : 
 	{

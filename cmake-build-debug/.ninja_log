@@ -1,3 +1,6 @@
 # ninja log v5
 1	1929	7338236121657696	CMakeFiles/main.dir/src/Main.cpp.obj	ff2ee7bf0b5a600
 1933	3163	7338236133864654	main.exe	5bdca2bea26cd8c
+532	2676	7338261125668734	CMakeFiles/main.dir/src/Producto.cpp.obj	11791dd94c4953a6
+8	2728	7338261126217018	CMakeFiles/main.dir/src/Main.cpp.obj	ff2ee7bf0b5a600
+2729	3635	7338261135165655	main.exe	f0502a0bc1f0be73
