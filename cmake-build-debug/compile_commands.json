@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2/include -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++\" -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32\" -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward\" -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include\" -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/include\" -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed\" -isystem \"C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/x86_64-w64-mingw32/include\" -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Main.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Documentos\\GitHub\\proyecto-progra2\\src\\Main.cpp",
+  "file": "C:\\Users\\Didier\\OneDrive\\Documentos\\GitHub\\proyecto-progra2\\src\\Main.cpp",
+  "output": "CMakeFiles\\main.dir\\src\\Main.cpp.obj"
+}
+]
