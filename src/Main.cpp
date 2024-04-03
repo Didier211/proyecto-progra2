@@ -5,6 +5,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Pinga loca" << std::endl;
+    std::cout << "Papa no me heches guacamole en la cabeza, CALLA NACHO" << std::endl;
     return 0;
 }
