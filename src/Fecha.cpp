@@ -3,3 +3,5 @@
 //
 
 #include "../header/Fecha.h"
+
+Fecha::Fecha() {}
