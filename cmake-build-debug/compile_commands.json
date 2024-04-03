@@ -1,6 +1,18 @@
 [
 {
   "directory": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Categoria.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\src\\Categoria.cpp",
+  "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Categoria.cpp",
+  "output": "CMakeFiles/main.dir/src/Categoria.cpp.obj"
+},
+{
+  "directory": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Conserva.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\src\\Conserva.cpp",
+  "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Conserva.cpp",
+  "output": "CMakeFiles/main.dir/src/Conserva.cpp.obj"
+},
+{
+  "directory": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Fecha.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\src\\Fecha.cpp",
   "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Fecha.cpp",
   "output": "CMakeFiles/main.dir/src/Fecha.cpp.obj"

@@ -141,6 +141,54 @@ copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
 
+src/Categoria.obj: src/Categoria.cpp.obj
+.PHONY : src/Categoria.obj
+
+# target to build an object file
+src/Categoria.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Categoria.cpp.obj
+.PHONY : src/Categoria.cpp.obj
+
+src/Categoria.i: src/Categoria.cpp.i
+.PHONY : src/Categoria.i
+
+# target to preprocess a source file
+src/Categoria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Categoria.cpp.i
+.PHONY : src/Categoria.cpp.i
+
+src/Categoria.s: src/Categoria.cpp.s
+.PHONY : src/Categoria.s
+
+# target to generate assembly for a file
+src/Categoria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Categoria.cpp.s
+.PHONY : src/Categoria.cpp.s
+
+src/Conserva.obj: src/Conserva.cpp.obj
+.PHONY : src/Conserva.obj
+
+# target to build an object file
+src/Conserva.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Conserva.cpp.obj
+.PHONY : src/Conserva.cpp.obj
+
+src/Conserva.i: src/Conserva.cpp.i
+.PHONY : src/Conserva.i
+
+# target to preprocess a source file
+src/Conserva.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Conserva.cpp.i
+.PHONY : src/Conserva.cpp.i
+
+src/Conserva.s: src/Conserva.cpp.s
+.PHONY : src/Conserva.s
+
+# target to generate assembly for a file
+src/Conserva.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Conserva.cpp.s
+.PHONY : src/Conserva.cpp.s
+
 src/Fecha.obj: src/Fecha.cpp.obj
 .PHONY : src/Fecha.obj
 
@@ -223,6 +271,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
+	@echo ... src/Categoria.obj
+	@echo ... src/Categoria.i
+	@echo ... src/Categoria.s
+	@echo ... src/Conserva.obj
+	@echo ... src/Conserva.i
+	@echo ... src/Conserva.s
 	@echo ... src/Fecha.obj
 	@echo ... src/Fecha.i
 	@echo ... src/Fecha.s

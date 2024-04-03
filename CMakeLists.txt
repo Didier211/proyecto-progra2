@@ -24,7 +24,11 @@ add_executable(main ${SRC}
         header/Producto.h
         header/Producto.h
         src/Fecha.cpp
-        header/Fecha.h)
+        header/Fecha.h
+        src/Categoria.cpp
+        header/Categoria.h
+        src/Conserva.cpp
+        header/Conserva.h)
 # Copy compile_commands.json to project root
 add_custom_target(
         copy-compile-commands ALL
