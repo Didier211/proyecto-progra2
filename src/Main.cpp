@@ -5,6 +5,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Pinga loca" << std::endl;
     return 0;
 }

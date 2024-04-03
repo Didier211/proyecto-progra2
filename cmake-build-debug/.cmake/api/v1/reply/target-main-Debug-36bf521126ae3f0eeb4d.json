@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Didier/OneDrive/Documentos/GitHub/proyecto-progra2/include"
+					"path" : "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/include"
 				},
 				{
 					"isSystem" : true,
@@ -81,6 +81,10 @@
 				{
 					"isSystem" : true,
 					"path" : "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/x86_64-w64-mingw32/include"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/MinGW/include"
 				}
 			],
 			"language" : "CXX",
