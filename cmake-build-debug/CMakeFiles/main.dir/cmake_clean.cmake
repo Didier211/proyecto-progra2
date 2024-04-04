@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/header/Perecedero.cpp.obj"
+  "CMakeFiles/main.dir/header/Perecedero.cpp.obj.d"
   "CMakeFiles/main.dir/src/Categoria.cpp.obj"
   "CMakeFiles/main.dir/src/Categoria.cpp.obj.d"
   "CMakeFiles/main.dir/src/Conserva.cpp.obj"

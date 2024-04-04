@@ -141,6 +141,30 @@ copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
 
+header/Perecedero.obj: header/Perecedero.cpp.obj
+.PHONY : header/Perecedero.obj
+
+# target to build an object file
+header/Perecedero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/Perecedero.cpp.obj
+.PHONY : header/Perecedero.cpp.obj
+
+header/Perecedero.i: header/Perecedero.cpp.i
+.PHONY : header/Perecedero.i
+
+# target to preprocess a source file
+header/Perecedero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/Perecedero.cpp.i
+.PHONY : header/Perecedero.cpp.i
+
+header/Perecedero.s: header/Perecedero.cpp.s
+.PHONY : header/Perecedero.s
+
+# target to generate assembly for a file
+header/Perecedero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/Perecedero.cpp.s
+.PHONY : header/Perecedero.cpp.s
+
 src/Categoria.obj: src/Categoria.cpp.obj
 .PHONY : src/Categoria.obj
 
@@ -271,6 +295,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
+	@echo ... header/Perecedero.obj
+	@echo ... header/Perecedero.i
+	@echo ... header/Perecedero.s
 	@echo ... src/Categoria.obj
 	@echo ... src/Categoria.i
 	@echo ... src/Categoria.s

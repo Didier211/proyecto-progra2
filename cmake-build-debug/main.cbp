@@ -99,7 +99,16 @@
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Categoria.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Conserva.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Fecha.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Perecedero.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Perecedero.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Producto.h">
@@ -109,9 +118,6 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Conserva.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Conserva.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Fecha.cpp">

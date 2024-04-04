@@ -13,7 +13,7 @@ class Conserva : public Producto
 private:
     bool envasado;
 public:
-    Conserva(string = "", string = "", string = "", double = 0, string = "", int = 0, int = 0, Fecha* = nullptr, bool = false);
+    Conserva(string = "", string = "", string = "", double = 0, string = "", int = 0, int = 0, Fecha* = nullptr, Categoria* = nullptr, bool = false);
     ~Conserva();
 
     void setEnvasado(bool);
