@@ -30,7 +30,8 @@ add_executable(main ${SRC}
         src/Conserva.cpp
         header/Conserva.h
         src/Perecedero.cpp
-        header/Perecedero.h)
+        header/Perecedero.h
+)
 # Copy compile_commands.json to project root
 add_custom_target(
         copy-compile-commands ALL

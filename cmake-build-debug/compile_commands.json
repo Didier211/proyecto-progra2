@@ -25,14 +25,20 @@
 },
 {
   "directory": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Perecedero.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\src\\Perecedero.cpp",
+  "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Perecedero.cpp",
+  "output": "CMakeFiles/main.dir/src/Perecedero.cpp.obj"
+},
+{
+  "directory": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Producto.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\src\\Producto.cpp",
   "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Producto.cpp",
   "output": "CMakeFiles/main.dir/src/Producto.cpp.obj"
 },
 {
   "directory": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\header\\Perecedero.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\header\\Perecedero.cpp",
-  "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Perecedero.cpp",
-  "output": "CMakeFiles/main.dir/header/Perecedero.cpp.obj"
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\ProductoPerecedero.cpp.obj -c C:\\Users\\mjca1\\Desktop\\ProyectoI\\proyecto-progra2\\src\\ProductoPerecedero.cpp",
+  "file": "C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/ProductoPerecedero.cpp",
+  "output": "CMakeFiles/main.dir/src/ProductoPerecedero.cpp.obj"
 }
 ]

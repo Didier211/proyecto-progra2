@@ -141,30 +141,6 @@ copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
 
-header/Perecedero.obj: header/Perecedero.cpp.obj
-.PHONY : header/Perecedero.obj
-
-# target to build an object file
-header/Perecedero.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/Perecedero.cpp.obj
-.PHONY : header/Perecedero.cpp.obj
-
-header/Perecedero.i: header/Perecedero.cpp.i
-.PHONY : header/Perecedero.i
-
-# target to preprocess a source file
-header/Perecedero.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/Perecedero.cpp.i
-.PHONY : header/Perecedero.cpp.i
-
-header/Perecedero.s: header/Perecedero.cpp.s
-.PHONY : header/Perecedero.s
-
-# target to generate assembly for a file
-header/Perecedero.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/Perecedero.cpp.s
-.PHONY : header/Perecedero.cpp.s
-
 src/Categoria.obj: src/Categoria.cpp.obj
 .PHONY : src/Categoria.obj
 
@@ -261,6 +237,30 @@ src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/Perecedero.obj: src/Perecedero.cpp.obj
+.PHONY : src/Perecedero.obj
+
+# target to build an object file
+src/Perecedero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Perecedero.cpp.obj
+.PHONY : src/Perecedero.cpp.obj
+
+src/Perecedero.i: src/Perecedero.cpp.i
+.PHONY : src/Perecedero.i
+
+# target to preprocess a source file
+src/Perecedero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Perecedero.cpp.i
+.PHONY : src/Perecedero.cpp.i
+
+src/Perecedero.s: src/Perecedero.cpp.s
+.PHONY : src/Perecedero.s
+
+# target to generate assembly for a file
+src/Perecedero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Perecedero.cpp.s
+.PHONY : src/Perecedero.cpp.s
+
 src/Producto.obj: src/Producto.cpp.obj
 .PHONY : src/Producto.obj
 
@@ -285,6 +285,30 @@ src/Producto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Producto.cpp.s
 .PHONY : src/Producto.cpp.s
 
+src/ProductoPerecedero.obj: src/ProductoPerecedero.cpp.obj
+.PHONY : src/ProductoPerecedero.obj
+
+# target to build an object file
+src/ProductoPerecedero.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ProductoPerecedero.cpp.obj
+.PHONY : src/ProductoPerecedero.cpp.obj
+
+src/ProductoPerecedero.i: src/ProductoPerecedero.cpp.i
+.PHONY : src/ProductoPerecedero.i
+
+# target to preprocess a source file
+src/ProductoPerecedero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ProductoPerecedero.cpp.i
+.PHONY : src/ProductoPerecedero.cpp.i
+
+src/ProductoPerecedero.s: src/ProductoPerecedero.cpp.s
+.PHONY : src/ProductoPerecedero.s
+
+# target to generate assembly for a file
+src/ProductoPerecedero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ProductoPerecedero.cpp.s
+.PHONY : src/ProductoPerecedero.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,9 +319,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
-	@echo ... header/Perecedero.obj
-	@echo ... header/Perecedero.i
-	@echo ... header/Perecedero.s
 	@echo ... src/Categoria.obj
 	@echo ... src/Categoria.i
 	@echo ... src/Categoria.s
@@ -310,9 +331,15 @@ help:
 	@echo ... src/Main.obj
 	@echo ... src/Main.i
 	@echo ... src/Main.s
+	@echo ... src/Perecedero.obj
+	@echo ... src/Perecedero.i
+	@echo ... src/Perecedero.s
 	@echo ... src/Producto.obj
 	@echo ... src/Producto.i
 	@echo ... src/Producto.s
+	@echo ... src/ProductoPerecedero.obj
+	@echo ... src/ProductoPerecedero.i
+	@echo ... src/ProductoPerecedero.s
 .PHONY : help
 
 
