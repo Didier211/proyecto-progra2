@@ -11,8 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Perecedero.cpp.obj.d"
   "CMakeFiles/main.dir/src/Producto.cpp.obj"
   "CMakeFiles/main.dir/src/Producto.cpp.obj.d"
-  "CMakeFiles/main.dir/src/ProductoPerecedero.cpp.obj"
-  "CMakeFiles/main.dir/src/ProductoPerecedero.cpp.obj.d"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

@@ -285,30 +285,6 @@ src/Producto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Producto.cpp.s
 .PHONY : src/Producto.cpp.s
 
-src/ProductoPerecedero.obj: src/ProductoPerecedero.cpp.obj
-.PHONY : src/ProductoPerecedero.obj
-
-# target to build an object file
-src/ProductoPerecedero.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ProductoPerecedero.cpp.obj
-.PHONY : src/ProductoPerecedero.cpp.obj
-
-src/ProductoPerecedero.i: src/ProductoPerecedero.cpp.i
-.PHONY : src/ProductoPerecedero.i
-
-# target to preprocess a source file
-src/ProductoPerecedero.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ProductoPerecedero.cpp.i
-.PHONY : src/ProductoPerecedero.cpp.i
-
-src/ProductoPerecedero.s: src/ProductoPerecedero.cpp.s
-.PHONY : src/ProductoPerecedero.s
-
-# target to generate assembly for a file
-src/ProductoPerecedero.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ProductoPerecedero.cpp.s
-.PHONY : src/ProductoPerecedero.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -337,9 +313,6 @@ help:
 	@echo ... src/Producto.obj
 	@echo ... src/Producto.i
 	@echo ... src/Producto.s
-	@echo ... src/ProductoPerecedero.obj
-	@echo ... src/ProductoPerecedero.i
-	@echo ... src/ProductoPerecedero.s
 .PHONY : help
 
 

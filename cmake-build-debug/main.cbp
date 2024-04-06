@@ -129,12 +129,6 @@
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Producto.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/ProductoPerecedero.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/ProductoPerecedero.h">
-			<Option target="main"/>
-		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
