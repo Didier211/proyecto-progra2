@@ -18,5 +18,7 @@ public:
     string getEmpresaNombre() const;
 
     string toString() const;
+
+    friend ostream& operator << (ostream&, const Abarrote&);
 };
 #endif //MAIN_ABARROTE_H

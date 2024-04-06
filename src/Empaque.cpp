@@ -26,3 +26,8 @@ string Empaque::toString() const {
     }
     return s.str();
 }
+
+ostream &operator<<(ostream& salida, const Empaque& e2) {
+    salida << e2.toString();
+    return salida;
+}

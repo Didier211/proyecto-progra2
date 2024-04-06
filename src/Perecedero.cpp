@@ -85,6 +85,13 @@ string Perecedero::toStringEmbutido() const {
     return s.str();
 }
 
+ostream &operator<<(ostream& salida, const Perecedero& p2) {
+    salida << p2.toString();
+    salida << p2.toStringAbarrote();
+    salida << p2.toStringEmbutido();
+    return salida;
+}
+
 
 
 

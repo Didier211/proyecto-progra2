@@ -41,3 +41,8 @@ Carne *Embutido::getCarne() const {
 Empaque *Embutido::getEmpaque() const {
     return empaque;
 }
+
+ostream &operator<<(ostream& salida, const Embutido& e2) {
+    salida << e2.toString();
+    return salida;
+}

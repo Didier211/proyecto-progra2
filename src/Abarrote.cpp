@@ -20,3 +20,8 @@ string Abarrote::toString() const {
     s << "Nombre de la empresa: " << empresaNombre <<endl;
     return s.str();
 }
+
+ostream &operator<<(ostream& salida, const Abarrote& a2) {
+    salida << a2.toString();
+    return salida;
+}

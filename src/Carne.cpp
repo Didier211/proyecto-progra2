@@ -30,3 +30,8 @@ string Carne::toString() const {
     s << "Parte de animal: " << parteAnimal << endl;
     return s.str();
 }
+
+ostream &operator<<(ostream& salida, const Carne& c2) {
+    salida << c2.toString();
+    return salida;
+}

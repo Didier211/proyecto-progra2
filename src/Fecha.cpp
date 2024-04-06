@@ -44,3 +44,8 @@ string Fecha::toString() const
     s << dia << "/" << mes << "/" << annio;
     return s.str();
 }
+
+ostream &operator<<(ostream& salida, const Fecha& f2) {
+    salida << f2.toString();
+    return salida;
+}

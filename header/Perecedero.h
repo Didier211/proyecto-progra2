@@ -37,5 +37,7 @@ public:
     string toString() const;
     string toStringAbarrote() const;
     string toStringEmbutido() const;
+
+    friend ostream& operator << (ostream&, const Perecedero&);
 };
 #endif //MAIN_PERECEDERO_H

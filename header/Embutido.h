@@ -28,5 +28,6 @@ public:
 
     string toString() const;
 
+    friend ostream& operator << (ostream&, const Embutido&);
 };
 #endif //MAIN_EMBUTIDO_H

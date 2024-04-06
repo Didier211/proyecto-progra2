@@ -22,5 +22,6 @@ public:
 
     string toString() const;
 
+    friend ostream& operator << (ostream&, const Carne&);
 };
 #endif //MAIN_CARNE_H

@@ -21,6 +21,8 @@ public:
     bool getEnvasado() const;
 
     string toString() const;
+
+    friend ostream& operator << (ostream&, const Conserva&);
 };
 
 #endif //MAIN_CONSERVA_H

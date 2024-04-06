@@ -39,3 +39,8 @@ string Conserva::toString() const
     }
     return s.str();
 }
+
+ostream &operator<<(ostream& salida, const Conserva& c2) {
+    salida<<c2.toString();
+    return salida;
+}

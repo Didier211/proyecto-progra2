@@ -25,5 +25,7 @@ public:
     int getAnnio() const;
 
     string toString() const;
+
+    friend ostream& operator << (ostream&, const Fecha&);
 };
 #endif //MAIN_FECHA_H

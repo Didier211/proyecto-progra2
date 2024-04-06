@@ -18,5 +18,7 @@ public:
     bool getTripa() const;
 
     string toString() const;
+
+    friend ostream& operator << (ostream&, const Empaque&);
 };
 #endif //MAIN_EMPAQUE_H
