@@ -141,6 +141,54 @@ copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
 
+src/Abarrote.obj: src/Abarrote.cpp.obj
+.PHONY : src/Abarrote.obj
+
+# target to build an object file
+src/Abarrote.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Abarrote.cpp.obj
+.PHONY : src/Abarrote.cpp.obj
+
+src/Abarrote.i: src/Abarrote.cpp.i
+.PHONY : src/Abarrote.i
+
+# target to preprocess a source file
+src/Abarrote.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Abarrote.cpp.i
+.PHONY : src/Abarrote.cpp.i
+
+src/Abarrote.s: src/Abarrote.cpp.s
+.PHONY : src/Abarrote.s
+
+# target to generate assembly for a file
+src/Abarrote.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Abarrote.cpp.s
+.PHONY : src/Abarrote.cpp.s
+
+src/Carne.obj: src/Carne.cpp.obj
+.PHONY : src/Carne.obj
+
+# target to build an object file
+src/Carne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Carne.cpp.obj
+.PHONY : src/Carne.cpp.obj
+
+src/Carne.i: src/Carne.cpp.i
+.PHONY : src/Carne.i
+
+# target to preprocess a source file
+src/Carne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Carne.cpp.i
+.PHONY : src/Carne.cpp.i
+
+src/Carne.s: src/Carne.cpp.s
+.PHONY : src/Carne.s
+
+# target to generate assembly for a file
+src/Carne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Carne.cpp.s
+.PHONY : src/Carne.cpp.s
+
 src/Categoria.obj: src/Categoria.cpp.obj
 .PHONY : src/Categoria.obj
 
@@ -188,6 +236,54 @@ src/Conserva.s: src/Conserva.cpp.s
 src/Conserva.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Conserva.cpp.s
 .PHONY : src/Conserva.cpp.s
+
+src/Embutido.obj: src/Embutido.cpp.obj
+.PHONY : src/Embutido.obj
+
+# target to build an object file
+src/Embutido.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Embutido.cpp.obj
+.PHONY : src/Embutido.cpp.obj
+
+src/Embutido.i: src/Embutido.cpp.i
+.PHONY : src/Embutido.i
+
+# target to preprocess a source file
+src/Embutido.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Embutido.cpp.i
+.PHONY : src/Embutido.cpp.i
+
+src/Embutido.s: src/Embutido.cpp.s
+.PHONY : src/Embutido.s
+
+# target to generate assembly for a file
+src/Embutido.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Embutido.cpp.s
+.PHONY : src/Embutido.cpp.s
+
+src/Empaque.obj: src/Empaque.cpp.obj
+.PHONY : src/Empaque.obj
+
+# target to build an object file
+src/Empaque.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Empaque.cpp.obj
+.PHONY : src/Empaque.cpp.obj
+
+src/Empaque.i: src/Empaque.cpp.i
+.PHONY : src/Empaque.i
+
+# target to preprocess a source file
+src/Empaque.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Empaque.cpp.i
+.PHONY : src/Empaque.cpp.i
+
+src/Empaque.s: src/Empaque.cpp.s
+.PHONY : src/Empaque.s
+
+# target to generate assembly for a file
+src/Empaque.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Empaque.cpp.s
+.PHONY : src/Empaque.cpp.s
 
 src/Fecha.obj: src/Fecha.cpp.obj
 .PHONY : src/Fecha.obj
@@ -295,12 +391,24 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
+	@echo ... src/Abarrote.obj
+	@echo ... src/Abarrote.i
+	@echo ... src/Abarrote.s
+	@echo ... src/Carne.obj
+	@echo ... src/Carne.i
+	@echo ... src/Carne.s
 	@echo ... src/Categoria.obj
 	@echo ... src/Categoria.i
 	@echo ... src/Categoria.s
 	@echo ... src/Conserva.obj
 	@echo ... src/Conserva.i
 	@echo ... src/Conserva.s
+	@echo ... src/Embutido.obj
+	@echo ... src/Embutido.i
+	@echo ... src/Embutido.s
+	@echo ... src/Empaque.obj
+	@echo ... src/Empaque.i
+	@echo ... src/Empaque.s
 	@echo ... src/Fecha.obj
 	@echo ... src/Fecha.i
 	@echo ... src/Fecha.s

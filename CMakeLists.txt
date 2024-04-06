@@ -31,6 +31,14 @@ add_executable(main ${SRC}
         header/Conserva.h
         src/Perecedero.cpp
         header/Perecedero.h
+        src/Abarrote.cpp
+        header/Abarrote.h
+        src/Embutido.cpp
+        header/Embutido.h
+        src/Carne.cpp
+        header/Carne.h
+        src/Empaque.cpp
+        header/Empaque.h
 )
 # Copy compile_commands.json to project root
 add_custom_target(

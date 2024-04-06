@@ -96,10 +96,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Abarrote.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Carne.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Categoria.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Conserva.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Embutido.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Fecha.h">
@@ -111,10 +120,25 @@
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Producto.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Abarrote.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Carne.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Categoria.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Conserva.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Embutido.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Empaque.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Empaque.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Fecha.cpp">
