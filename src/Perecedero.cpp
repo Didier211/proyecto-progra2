@@ -1,10 +1,14 @@
 #include "../header/Perecedero.h"
 
 Perecedero::Perecedero(string _codigo, string _nombreComercial, string _descripcion, double _precioCosto, string _categoria, int _existencia, int _limite, Fecha* _fechaIngreso, bool _nacional, double _peso, Fecha* _fechaVencimiento) : Producto(_codigo, _nombreComercial, _descripcion, _precioCosto, _categoria, _existencia, _limite, _fechaIngreso), nacional(_nacional), peso(_peso), fechaVencimiento(_fechaVencimiento){
+    abarrote = new Abarrote();
+    embutido = new Embutido();
 }
 
 Perecedero::~Perecedero() {
     delete fechaVencimiento;
+    delete abarrote;
+    delete embutido;
 }
 
 void Perecedero::setNacional(bool _nacional) {
@@ -50,6 +54,34 @@ string Perecedero::toString() const {
         s << "no"<<endl;
     }
     s << "Peso: " << peso << endl;
+    return s.str();
+}
+
+void Perecedero::setAbarrote(Abarrote* _abarrote) {
+    abarrote = _abarrote;
+}
+
+void Perecedero::setEmbutido(Embutido* _embutido) {
+    embutido = _embutido;
+}
+
+Abarrote *Perecedero::getAbarrote() const {
+    return abarrote;
+}
+
+Embutido *Perecedero::getEmbutido() const {
+    return embutido;
+}
+
+string Perecedero::toStringAbarrote() const {
+    stringstream s;
+    s << abarrote->toString() << endl;
+    return s.str();
+}
+
+string Perecedero::toStringEmbutido() const {
+    stringstream s;
+    s << embutido->toString() << endl;
     return s.str();
 }
 
