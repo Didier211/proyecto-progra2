@@ -4,18 +4,27 @@
 #include <iostream>
 #include <sstream>
 
+#include "Carne.h"
+#include "Empaque.h"
+
 using namespace std;
 
 class Embutido {
 private:
     string marca;
+    Carne* carne;
+    Empaque* empaque;
 public:
-    Embutido(string = "");
+    Embutido(string = "", Carne* = nullptr, Empaque* = nullptr);
     ~Embutido();
 
     void setMarca(string);
+    void setCarne(Carne*);
+    void setEmpaque(Empaque*);
 
-    string getMarca();
+    string getMarca() const;
+    Carne* getCarne() const;
+    Empaque* getEmpaque() const;
 
     string toString() const;
 
