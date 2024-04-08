@@ -20,26 +20,26 @@ include_directories(include)            # Add include directory
 file(GLOB SRC src/*.cpp include/*.h)    # Add source files
 add_executable(main ${SRC}
         src/Producto.cpp
-        header/Producto.h
-        header/Producto.h
+        include/Producto.h
+        include/Producto.h
         src/Fecha.cpp
-        header/Fecha.h
+        include/Fecha.h
         src/Categoria.cpp
-        header/Categoria.h
+        include/Categoria.h
         src/Conserva.cpp
-        header/Conserva.h
+        include/Conserva.h
         src/Perecedero.cpp
-        header/Perecedero.h
+        include/Perecedero.h
         src/Abarrote.cpp
-        header/Abarrote.h
+        include/Abarrote.h
         src/Embutido.cpp
-        header/Embutido.h
+        include/Embutido.h
         src/Carne.cpp
-        header/Carne.h
+        include/Carne.h
         src/Empaque.cpp
-        header/Empaque.h
-        header/Nodo.h
-        header/Lista.h
+        include/Empaque.h
+        include/Nodo.h
+        include/Lista.h
         src/main.cpp
 )
 # Copy compile_commands.json to project root

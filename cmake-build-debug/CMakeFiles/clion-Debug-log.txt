@@ -16,19 +16,6 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   CMake that the project does not need compatibility with older versions.
 
 
--- Configuring done (0.4s)
-CMake Error at CMakeLists.txt:21 (add_executable):
-  Cannot find source file:
-
-    header/main.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
-  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
-  .f95 .f03 .hip .ispc
-
-
-CMake Error at CMakeLists.txt:21 (add_executable):
-  No SOURCES given to target: main
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug

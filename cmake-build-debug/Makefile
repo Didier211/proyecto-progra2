@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2
+CMAKE_SOURCE_DIR = C:\Users\Didier\OneDrive\Escritorio\proyecto-progra2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Didier\OneDrive\Escritorio\proyecto-progra2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Didier\OneDrive\Escritorio\proyecto-progra2\cmake-build-debug\CMakeFiles C:\Users\Didier\OneDrive\Escritorio\proyecto-progra2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Didier\OneDrive\Escritorio\proyecto-progra2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -140,30 +140,6 @@ copy-compile-commands: cmake_check_build_system
 copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
-
-header/main.obj: header/main.cpp.obj
-.PHONY : header/main.obj
-
-# target to build an object file
-header/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/main.cpp.obj
-.PHONY : header/main.cpp.obj
-
-header/main.i: header/main.cpp.i
-.PHONY : header/main.i
-
-# target to preprocess a source file
-header/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/main.cpp.i
-.PHONY : header/main.cpp.i
-
-header/main.s: header/main.cpp.s
-.PHONY : header/main.s
-
-# target to generate assembly for a file
-header/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/main.cpp.s
-.PHONY : header/main.cpp.s
 
 src/Abarrote.obj: src/Abarrote.cpp.obj
 .PHONY : src/Abarrote.obj
@@ -381,6 +357,30 @@ src/Producto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Producto.cpp.s
 .PHONY : src/Producto.cpp.s
 
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -391,9 +391,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
-	@echo ... header/main.obj
-	@echo ... header/main.i
-	@echo ... header/main.s
 	@echo ... src/Abarrote.obj
 	@echo ... src/Abarrote.i
 	@echo ... src/Abarrote.s
@@ -421,6 +418,9 @@ help:
 	@echo ... src/Producto.obj
 	@echo ... src/Producto.i
 	@echo ... src/Producto.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
