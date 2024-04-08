@@ -39,6 +39,8 @@ add_executable(main ${SRC}
         header/Carne.h
         src/Empaque.cpp
         header/Empaque.h
+        header/Nodo.h
+        header/Lista.h
 )
 # Copy compile_commands.json to project root
 add_custom_target(

@@ -111,7 +111,16 @@
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Embutido.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Empaque.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Fecha.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Lista.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Nodo.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Perecedero.h">
@@ -136,9 +145,6 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Empaque.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Empaque.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Fecha.cpp">

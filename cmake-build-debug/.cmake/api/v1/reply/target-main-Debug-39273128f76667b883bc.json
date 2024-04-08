@@ -168,7 +168,9 @@
 				15,
 				16,
 				17,
-				18
+				18,
+				19,
+				20
 			]
 		}
 	],
@@ -276,7 +278,17 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Empaque.h",
+			"path" : "header/Empaque.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "header/Nodo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "header/Lista.h",
 			"sourceGroupIndex" : 1
 		}
 	],
