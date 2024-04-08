@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Abarrote.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Abarrote.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Abarrote.cpp",
+  "output": "CMakeFiles/main.dir/src/Abarrote.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Carne.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Carne.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Carne.cpp",
+  "output": "CMakeFiles/main.dir/src/Carne.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Categoria.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Categoria.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Categoria.cpp",
+  "output": "CMakeFiles/main.dir/src/Categoria.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Conserva.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Conserva.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Conserva.cpp",
+  "output": "CMakeFiles/main.dir/src/Conserva.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Embutido.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Embutido.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Embutido.cpp",
+  "output": "CMakeFiles/main.dir/src/Embutido.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Empaque.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Empaque.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Empaque.cpp",
+  "output": "CMakeFiles/main.dir/src/Empaque.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Fecha.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Fecha.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Fecha.cpp",
+  "output": "CMakeFiles/main.dir/src/Fecha.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Main.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Main.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Main.cpp",
+  "output": "CMakeFiles/main.dir/src/Main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Perecedero.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Perecedero.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Perecedero.cpp",
+  "output": "CMakeFiles/main.dir/src/Perecedero.cpp.obj"
+},
+{
+  "directory": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/main.dir/includes_CXX.rsp -g -O0 -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\main.dir\\src\\Producto.cpp.obj -c C:\\Users\\Didier\\OneDrive\\Escritorio\\proyecto-progra2\\src\\Producto.cpp",
+  "file": "C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/src/Producto.cpp",
+  "output": "CMakeFiles/main.dir/src/Producto.cpp.obj"
+}
+]

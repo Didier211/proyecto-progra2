@@ -1,0 +1,4 @@
+C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug/CMakeFiles/copy-compile-commands.dir
+C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Didier/OneDrive/Escritorio/proyecto-progra2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
