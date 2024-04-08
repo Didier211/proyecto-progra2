@@ -40,7 +40,7 @@ add_executable(main ${SRC}
         header/Empaque.h
         header/Nodo.h
         header/Lista.h
-        header/main.cpp
+        src/main.cpp
 )
 # Copy compile_commands.json to project root
 add_custom_target(

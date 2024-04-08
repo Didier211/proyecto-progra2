@@ -1,4 +1,0 @@
-C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug/CMakeFiles/main.dir
-C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug/CMakeFiles/copy-compile-commands.dir
-C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
