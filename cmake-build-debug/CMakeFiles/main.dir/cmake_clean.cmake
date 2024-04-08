@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/header/main.cpp.obj"
+  "CMakeFiles/main.dir/header/main.cpp.obj.d"
   "CMakeFiles/main.dir/src/Abarrote.cpp.obj"
   "CMakeFiles/main.dir/src/Abarrote.cpp.obj.d"
   "CMakeFiles/main.dir/src/Carne.cpp.obj"
@@ -13,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Empaque.cpp.obj.d"
   "CMakeFiles/main.dir/src/Fecha.cpp.obj"
   "CMakeFiles/main.dir/src/Fecha.cpp.obj.d"
-  "CMakeFiles/main.dir/src/Main.cpp.obj"
-  "CMakeFiles/main.dir/src/Main.cpp.obj.d"
   "CMakeFiles/main.dir/src/Perecedero.cpp.obj"
   "CMakeFiles/main.dir/src/Perecedero.cpp.obj.d"
   "CMakeFiles/main.dir/src/Producto.cpp.obj"

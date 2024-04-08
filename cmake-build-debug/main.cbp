@@ -129,6 +129,9 @@
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/Producto.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/main.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Abarrote.cpp">
 			<Option target="main"/>
 		</Unit>
@@ -148,9 +151,6 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Fecha.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Main.cpp">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Perecedero.cpp">

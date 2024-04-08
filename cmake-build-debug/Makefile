@@ -141,6 +141,30 @@ copy-compile-commands/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\copy-compile-commands.dir\build.make CMakeFiles/copy-compile-commands.dir/build
 .PHONY : copy-compile-commands/fast
 
+header/main.obj: header/main.cpp.obj
+.PHONY : header/main.obj
+
+# target to build an object file
+header/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/main.cpp.obj
+.PHONY : header/main.cpp.obj
+
+header/main.i: header/main.cpp.i
+.PHONY : header/main.i
+
+# target to preprocess a source file
+header/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/main.cpp.i
+.PHONY : header/main.cpp.i
+
+header/main.s: header/main.cpp.s
+.PHONY : header/main.s
+
+# target to generate assembly for a file
+header/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/header/main.cpp.s
+.PHONY : header/main.cpp.s
+
 src/Abarrote.obj: src/Abarrote.cpp.obj
 .PHONY : src/Abarrote.obj
 
@@ -309,30 +333,6 @@ src/Fecha.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fecha.cpp.s
 .PHONY : src/Fecha.cpp.s
 
-src/Main.obj: src/Main.cpp.obj
-.PHONY : src/Main.obj
-
-# target to build an object file
-src/Main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Main.cpp.obj
-.PHONY : src/Main.cpp.obj
-
-src/Main.i: src/Main.cpp.i
-.PHONY : src/Main.i
-
-# target to preprocess a source file
-src/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Main.cpp.i
-.PHONY : src/Main.cpp.i
-
-src/Main.s: src/Main.cpp.s
-.PHONY : src/Main.s
-
-# target to generate assembly for a file
-src/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Main.cpp.s
-.PHONY : src/Main.cpp.s
-
 src/Perecedero.obj: src/Perecedero.cpp.obj
 .PHONY : src/Perecedero.obj
 
@@ -391,6 +391,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... copy-compile-commands
 	@echo ... main
+	@echo ... header/main.obj
+	@echo ... header/main.i
+	@echo ... header/main.s
 	@echo ... src/Abarrote.obj
 	@echo ... src/Abarrote.i
 	@echo ... src/Abarrote.s
@@ -412,9 +415,6 @@ help:
 	@echo ... src/Fecha.obj
 	@echo ... src/Fecha.i
 	@echo ... src/Fecha.s
-	@echo ... src/Main.obj
-	@echo ... src/Main.i
-	@echo ... src/Main.s
 	@echo ... src/Perecedero.obj
 	@echo ... src/Perecedero.i
 	@echo ... src/Perecedero.s

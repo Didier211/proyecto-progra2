@@ -173,26 +173,11 @@ CMakeFiles/main.dir/src/Fecha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Fecha.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Fecha.cpp -o CMakeFiles\main.dir\src\Fecha.cpp.s
 
-CMakeFiles/main.dir/src/Main.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/Main.cpp.obj: C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Main.cpp
-CMakeFiles/main.dir/src/Main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/Main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Main.cpp.obj -MF CMakeFiles\main.dir\src\Main.cpp.obj.d -o CMakeFiles\main.dir\src\Main.cpp.obj -c C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Main.cpp
-
-CMakeFiles/main.dir/src/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Main.cpp > CMakeFiles\main.dir\src\Main.cpp.i
-
-CMakeFiles/main.dir/src/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Main.cpp -o CMakeFiles\main.dir\src\Main.cpp.s
-
 CMakeFiles/main.dir/src/Perecedero.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Perecedero.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Perecedero.cpp.obj: C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Perecedero.cpp
 CMakeFiles/main.dir/src/Perecedero.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/Perecedero.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/Perecedero.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Perecedero.cpp.obj -MF CMakeFiles\main.dir\src\Perecedero.cpp.obj.d -o CMakeFiles\main.dir\src\Perecedero.cpp.obj -c C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Perecedero.cpp
 
 CMakeFiles/main.dir/src/Perecedero.cpp.i: cmake_force
@@ -207,7 +192,7 @@ CMakeFiles/main.dir/src/Producto.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Producto.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Producto.cpp.obj: C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/src/Producto.cpp
 CMakeFiles/main.dir/src/Producto.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/Producto.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/Producto.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Producto.cpp.obj -MF CMakeFiles\main.dir\src\Producto.cpp.obj.d -o CMakeFiles\main.dir\src\Producto.cpp.obj -c C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Producto.cpp
 
 CMakeFiles/main.dir/src/Producto.cpp.i: cmake_force
@@ -218,6 +203,21 @@ CMakeFiles/main.dir/src/Producto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Producto.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\src\Producto.cpp -o CMakeFiles\main.dir\src\Producto.cpp.s
 
+CMakeFiles/main.dir/header/main.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/header/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/header/main.cpp.obj: C:/Users/mjca1/Desktop/ProyectoI/proyecto-progra2/header/main.cpp
+CMakeFiles/main.dir/header/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/header/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/header/main.cpp.obj -MF CMakeFiles\main.dir\header\main.cpp.obj.d -o CMakeFiles\main.dir\header\main.cpp.obj -c C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\header\main.cpp
+
+CMakeFiles/main.dir/header/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/header/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\header\main.cpp > CMakeFiles\main.dir\header\main.cpp.i
+
+CMakeFiles/main.dir/header/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/header/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mjca1\Desktop\ProyectoI\proyecto-progra2\header\main.cpp -o CMakeFiles\main.dir\header\main.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/Abarrote.cpp.obj" \
@@ -227,9 +227,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/Embutido.cpp.obj" \
 "CMakeFiles/main.dir/src/Empaque.cpp.obj" \
 "CMakeFiles/main.dir/src/Fecha.cpp.obj" \
-"CMakeFiles/main.dir/src/Main.cpp.obj" \
 "CMakeFiles/main.dir/src/Perecedero.cpp.obj" \
-"CMakeFiles/main.dir/src/Producto.cpp.obj"
+"CMakeFiles/main.dir/src/Producto.cpp.obj" \
+"CMakeFiles/main.dir/header/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -241,9 +241,9 @@ main.exe: CMakeFiles/main.dir/src/Conserva.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Embutido.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Empaque.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Fecha.cpp.obj
-main.exe: CMakeFiles/main.dir/src/Main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Perecedero.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Producto.cpp.obj
+main.exe: CMakeFiles/main.dir/header/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
