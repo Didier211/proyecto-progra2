@@ -1,4 +1,4 @@
-#include "../header/Fecha.h"
+#include "Fecha.h"
 
 Fecha::Fecha(int _dia, int _mes, int _annio) : dia(_dia), mes(_mes), annio(_annio)
 {

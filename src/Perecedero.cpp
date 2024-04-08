@@ -1,4 +1,4 @@
-#include "../header/Perecedero.h"
+#include "Perecedero.h"
 
 Perecedero::Perecedero(string _codigo, string _nombreComercial, string _descripcion, double _precioCosto, string _categoria, int _existencia, int _limite, Fecha* _fechaIngreso, bool _nacional, double _peso, Fecha* _fechaVencimiento) : Producto(_codigo, _nombreComercial, _descripcion, _precioCosto, _categoria, _existencia, _limite, _fechaIngreso), nacional(_nacional), peso(_peso), fechaVencimiento(_fechaVencimiento){
     abarrote = new Abarrote();

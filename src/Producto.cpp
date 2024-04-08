@@ -1,4 +1,4 @@
-#include "../header/Producto.h"
+#include "Producto.h"
 Producto::Producto(string _codigo, string _nombreComercial, string _descripcion, double _precioCosto, string _categoria, int _existencia, int _limite, Fecha* _fechaIngreso, Categoria* _cat) : codigo(_codigo), nombreComercial(_nombreComercial), descripcion(_descripcion), precioCosto(_precioCosto), categoria(_categoria), existencia(_existencia), limite(_limite), fechaIngreso(_fechaIngreso), cat(_cat)
 {
 }

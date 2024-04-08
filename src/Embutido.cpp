@@ -1,4 +1,4 @@
-#include "../header/Embutido.h"
+#include "Embutido.h"
 
 Embutido::Embutido(string _marca, Carne* _carne, Empaque* _empaque) : marca(_marca), carne(_carne), empaque(_empaque) {
 

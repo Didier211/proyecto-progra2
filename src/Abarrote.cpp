@@ -1,4 +1,4 @@
-#include "../header/Abarrote.h"
+#include "Abarrote.h"
 
 Abarrote::Abarrote(string _empresaNombre) : empresaNombre(_empresaNombre) {
 }

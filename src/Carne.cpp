@@ -1,4 +1,4 @@
-#include "../header/Carne.h"
+#include "Carne.h"
 
 Carne::Carne(string _nombreAnimal, string _parteAnimal) : nombreAnimal(_nombreAnimal), parteAnimal(_parteAnimal) {
 

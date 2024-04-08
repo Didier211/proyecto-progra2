@@ -1,4 +1,4 @@
-#include "../header/Conserva.h"
+#include "Conserva.h"
 
 Conserva::Conserva(string _codigo, string _nombreComercial, string _descripcion, double _precioCosto, string _categoria, int _existencia, int _limite, Fecha* _fechaIngreso, Categoria* _cat, bool _envasado) : Producto(_codigo, _nombreComercial, _descripcion, _precioCosto, _categoria, _existencia, _limite, _fechaIngreso, _cat), envasado(_envasado)
 {

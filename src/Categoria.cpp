@@ -1,4 +1,4 @@
-#include "../header/Categoria.h"
+#include "Categoria.h"
 
 double Categoria::porcentajeGanancia(string categoria)
 {

@@ -1,4 +1,4 @@
-#include "../header/Empaque.h"
+#include "Empaque.h"
 
 Empaque::Empaque(bool _tripa) : tripa(_tripa) {
 
