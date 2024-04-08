@@ -1,7 +1,7 @@
 
 #include <iostream>
-#include "Abarrote.h"
-#include "Categoria.h"
+#include "Carne.h"
+#include "Empaque.h"
 
 using namespace std;
 
